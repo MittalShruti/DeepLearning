@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Submit an Image</title>
+   <link rel="stylesheet" type="text/css" href="/static/style.css">
+  </head>
+  <body>
+    <div id="container">
+      <div class="pagetitle">
+        <h1>Submit an Image</h1>
+      </div>
+      <div id="main">
+        <form method="post" action="{{ url_for('watermarkform') }}">
+          <label for="image_url">IMAGE URL:</label>
+          <input type="url" name="image_url"><br />
+<!--           <label for="comments">Comments:</label>
+          <textarea name="comments"></textarea><br /> -->
+          <input type="submit">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

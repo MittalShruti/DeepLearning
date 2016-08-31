@@ -1,0 +1,33 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /.*
+  script: main.app
+
+# libraries:
+# - name: numpy
+#   version: "1.6.1"
+
+# - name: oauth2client
+#   version: "2.0.0"  
+
+ 
+
+# - name: PIL
+#   version: "1.1.7" 
+
+# - name: scipy
+#   version: "0.11.0"
+
+# - name: requests
+#   version: "2.11.0"    
+
+# - name: Werkzeug
+#   version: "0.11.10"
+
+
+# - name: keras
+#   version: "1.0.7"  
+
